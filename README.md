@@ -1,4 +1,19 @@
-# Google-Chronicle-Investigation
+# Investigating Phishing Email Using Google Chronicle
+
+## Step 1: Launch Chronicle and Perform Domain Search
+Begin by launching Google Chronicle. In the search bar, input the domain signin.office365x24.com and click Search. This query retrieves all events associated with the specified domain, indicating whether any employees have interacted with it. The search results confirm that the domain exists in the ingested data, and you can click on it to delve deeper into its details.
+
+## Step 2: Analyze Domain Information
+After clicking on the domain, you will access the domain view. Here, evaluate the VT CONTEXT section for VirusTotal information, the WHOIS data for ownership details, and the Prevalence graph to assess the domain's historical access patterns. Take note of any suspicious indicators, especially if the domain has been flagged by VirusTotal or exhibits low prevalence, which could indicate a greater risk. Additionally, review the Resolved IPs to gather insights about the IP addresses associated with the domain.
+
+## Step 3: Investigate Associated Assets and Events
+Click on the TIMELINE tab to examine the events related to the domain, expanding all entries to review detailed HTTP requests, including GET and POST requests. The ASSETS tab will display a list of devices that accessed the domain. Document the names and numbers of these assets in your incident handler's journal, particularly focusing on any POST requests to pages that may indicate a successful phishing attempt, such as a login page.
+
+## Step 4: Examine the Resolved IP Address
+Under the Resolved IPs section, click on the IP address 40.100.174.34. This step allows you to investigate whether any other domains are linked to this IP address, revealing potential reuse of infrastructure by attackers. Document any additional POST requests, affected assets, and related domains that could suggest further malicious activity.
+
+
+
 
 ![Screenshot 2024-09-07 141820](https://github.com/user-attachments/assets/c3530d5d-c221-4ca0-97ff-a91c2e66f917)
 
@@ -35,5 +50,8 @@
 ![Screenshot 2024-09-07 143848](https://github.com/user-attachments/assets/9c2dd2e7-c563-478a-8634-521e2abd2117)
 
 ![Screenshot 2024-09-07 143940](https://github.com/user-attachments/assets/77dd5bf6-ed64-4639-b374-70ff774dfcdd)
+
+Conclusion
+This lab reinforced the importance of thorough investigations in identifying and analyzing potential phishing threats. By utilizing Google Chronicle's powerful querying and data analysis capabilities, you successfully uncovered suspicious domain activity and associated risks. The insights gathered will be crucial for enhancing your organization's cybersecurity posture and ensuring a proactive approach to threat management.
 
 
