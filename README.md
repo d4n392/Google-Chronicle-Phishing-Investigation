@@ -1,5 +1,7 @@
 # Investigating Phishing Email Using Google Chronicle
 
+In this Google Chronicle lab, I embarked on a critical investigation into a _phishing_ email alert that raised concerns about a suspicious domain, _signin.office365x24.com_. By leveraging Chronicle’s robust search capabilities, I initiated my inquiry with a direct query to uncover any potential interactions employees may have had with this domain. My exploration revealed not only the existence of the domain within the ingested data but also essential insights into its risk profile through detailed analysis of _VirusTotal_ data, WHOIS information, and historical access patterns. The investigation took a pivotal turn as I discovered a _malicious IP address, 40.100.174.34_ associated with the domain. Highlighting the importance of proactive _threat hunting_ in identifying potential vulnerabilities within the organization. This lab enhanced my technical skills in using Chronicle, in addition it underscored the critical role that thorough investigations play in protecting against _phishing_ threats and strengthening overall cybersecurity defenses.
+
 ## Step 1: Launch Chronicle and Perform Domain Search
 I launched Google Chronicle. In the search bar, input the domain signin.office365x24.com and clicked Search. This query retrieves all events associated with the specified domain, indicating whether any employees have interacted with it. The search results confirmed that the domain exists in the ingested data. I clicked on it to delve deeper into its details.
 
