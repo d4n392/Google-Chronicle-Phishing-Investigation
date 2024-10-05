@@ -1,10 +1,17 @@
 # Investigating Phishing Email Using Google Chronicle
 
 ## Step 1: Launch Chronicle and Perform Domain Search
-Begin by launching Google Chronicle. In the search bar, input the domain signin.office365x24.com and click Search. This query retrieves all events associated with the specified domain, indicating whether any employees have interacted with it. The search results confirm that the domain exists in the ingested data, and you can click on it to delve deeper into its details.
+I launched Google Chronicle. In the search bar, input the domain signin.office365x24.com and clicked Search. This query retrieves all events associated with the specified domain, indicating whether any employees have interacted with it. The search results confirmed that the domain exists in the ingested data. I clicked on it to delve deeper into its details.
+
+![Screenshot 2024-09-07 141820](https://github.com/user-attachments/assets/c3530d5d-c221-4ca0-97ff-a91c2e66f917)
+
+
 
 ## Step 2: Analyze Domain Information
 After clicking on the domain, you will access the domain view. Here, evaluate the VT CONTEXT section for VirusTotal information, the WHOIS data for ownership details, and the Prevalence graph to assess the domain's historical access patterns. Take note of any suspicious indicators, especially if the domain has been flagged by VirusTotal or exhibits low prevalence, which could indicate a greater risk. Additionally, review the Resolved IPs to gather insights about the IP addresses associated with the domain.
+
+![Screenshot 2024-09-07 141858](https://github.com/user-attachments/assets/367fe13f-1ab4-49e3-b7b7-76f1f36243b6)
+
 
 ## Step 3: Investigate Associated Assets and Events
 Click on the TIMELINE tab to examine the events related to the domain, expanding all entries to review detailed HTTP requests, including GET and POST requests. The ASSETS tab will display a list of devices that accessed the domain. Document the names and numbers of these assets in your incident handler's journal, particularly focusing on any POST requests to pages that may indicate a successful phishing attempt, such as a login page.
@@ -15,11 +22,8 @@ Under the Resolved IPs section, click on the IP address 40.100.174.34. This step
 
 
 
-![Screenshot 2024-09-07 141820](https://github.com/user-attachments/assets/c3530d5d-c221-4ca0-97ff-a91c2e66f917)
 
-![Screenshot 2024-09-07 141858](https://github.com/user-attachments/assets/367fe13f-1ab4-49e3-b7b7-76f1f36243b6)
 
-![Screenshot 2024-09-07 141905](https://github.com/user-attachments/assets/055e9a62-fc63-4bd9-ad72-f2375ef66ebd)
 
 ![Screenshot 2024-09-07 141918](https://github.com/user-attachments/assets/df92203f-276e-45ea-891c-42b740eacccc)
 
@@ -51,7 +55,7 @@ Under the Resolved IPs section, click on the IP address 40.100.174.34. This step
 
 ![Screenshot 2024-09-07 143940](https://github.com/user-attachments/assets/77dd5bf6-ed64-4639-b374-70ff774dfcdd)
 
-Conclusion
+## Conclusion
 This lab reinforced the importance of thorough investigations in identifying and analyzing potential phishing threats. By utilizing Google Chronicle's powerful querying and data analysis capabilities, you successfully uncovered suspicious domain activity and associated risks. The insights gathered will be crucial for enhancing your organization's cybersecurity posture and ensuring a proactive approach to threat management.
 
 
