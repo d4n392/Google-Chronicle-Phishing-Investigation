@@ -1,6 +1,8 @@
 # Investigating Phishing Email Using Google Chronicle
 
-In this Google Chronicle lab, I embarked on a critical investigation into a _phishing_ email alert that raised concerns about a suspicious domain, _signin.office365x24.com_. By leveraging Chronicle’s robust search capabilities, I initiated my inquiry with a direct query to uncover any potential interactions employees may have had with this domain. My exploration revealed not only the existence of the domain within the ingested data but also essential insights into its risk profile through detailed analysis of _VirusTotal_ data, _WHOIS_ information, and historical access patterns. The investigation took a pivotal turn as I discovered a _malicious IP address, 40.100.174.34_ associated with the domain. Highlighting the importance of proactive _threat hunting_ in identifying potential vulnerabilities within the organization. This lab enhanced my technical skills in using Chronicle, in addition it underscored the critical role that thorough investigations play in protecting against _phishing_ threats and strengthening overall cybersecurity defenses.
+In this Google Chronicle lab, I embarked on a critical investigation into a _phishing_ email alert that raised concerns about a suspicious domain, _signin.office365x24.com_. By leveraging Chronicle’s robust search capabilities, I started with a direct query to uncover any potential interactions employees may have had with this domain. My exploration revealed not only the existence of the domain within the ingested data but also essential insights into its risk profile through detailed analysis of _VirusTotal_ data, _WHOIS_ information, and historical access patterns. The investigation took a pivotal turn as I discovered a _malicious IP address, 40.100.174.34_ associated with the domain. Highlighting the importance of proactive _threat hunting_ in identifying potential vulnerabilities within the organization. 
+
+This lab enhanced my technical skills in using Chronicle, in addition it underscored the critical role that thorough investigations play in protecting against _phishing_ threats and strengthening overall cybersecurity defenses.
 
 ## Step 1: Launch Chronicle and Perform Domain Search
 I launched Google Chronicle. In the search bar, input the domain signin.office365x24.com and clicked Search. This query retrieves all events associated with the specified domain, indicating whether any employees have interacted with it. The search results confirmed that the domain exists in the ingested data. I clicked on it to delve deeper into its details.
@@ -10,11 +12,9 @@ I launched Google Chronicle. In the search bar, input the domain signin.office36
 
 
 ## Step 2: Analyze Domain Information
-After clicking on the domain, you will access the domain view. Here, evaluate the VT CONTEXT section for VirusTotal information, the WHOIS data for ownership details, and the Prevalence graph to assess the domain's historical access patterns. Take note of any suspicious indicators, especially if the domain has been flagged by VirusTotal or exhibits low prevalence, which could indicate a greater risk. Additionally, review the Resolved IPs to gather insights about the IP addresses associated with the domain.
+After clicking on the domain, I accessed the domain view. Here, I evaluated the VT CONTEXT section for VirusTotal information, the WHOIS data for ownership details, and the Prevalence graph to assess the domain's historical access patterns. Take note of any suspicious indicators, especially if the domain has been flagged by VirusTotal or exhibits low prevalence, which could indicate a greater risk. Additionally, review the Resolved IPs to gather insights about the IP addresses associated with the domain.
 
 ![Screenshot 2024-09-07 141858](https://github.com/user-attachments/assets/367fe13f-1ab4-49e3-b7b7-76f1f36243b6)
-
-![Screenshot 2024-09-07 142501](https://github.com/user-attachments/assets/f30dbf5b-a357-406d-a6e3-464fe348c3ea)
 
 ![Screenshot 2024-09-07 142539](https://github.com/user-attachments/assets/ce8daa2e-f138-4283-b77f-0a7709e3dd92)
 
