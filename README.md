@@ -43,6 +43,9 @@ Under the Resolved IPs section, I clicked on the IP address _40.100.174.34_. Thi
 
 ![Screenshot 2024-09-07 143940](https://github.com/user-attachments/assets/77dd5bf6-ed64-4639-b374-70ff774dfcdd)
 
+There were two Indicator's of Compromise with a High Priority Intelligence Requirement, one of which was a brute force script ran from opening the link on the phishing email, using _POST /login.php_ HTTP requests. The two distinct domains associated with the IP _40.100.174.34_
+are _signin.accounts-gooqle.com_ and _signin.office365x24.com_. ESET Threat Intelligence suggested blocking this IP with _High_ confidence and _High_ severity. 
+
 ## Conclusion
 This Google Chronicle lab provided valuable insights into the investigation of _phishing_ emails, emphasizing the importance of proactive _threat hunting_. I learned how to effectively utilize Chronicle’s search capabilities to track down a suspicious domain, analyze its risk profile through _VirusTotal_ and _WHOIS_ data, and assess its prevalence in the system. The discovery of a malicious IP address linked to the _phishing_ attempt underscored the critical nature of thorough investigations in identifying potential _vulnerabilities_. Overall, this exercise enhanced my technical skills in cybersecurity while reinforcing the need for vigilance and comprehensive analysis in protecting organizational assets from _phishing_ threats.
 
