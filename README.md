@@ -12,7 +12,7 @@ I launched Google Chronicle. In the search bar, input the domain signin.office36
 
 
 ## Step 2: Analyze Domain Information
-After clicking on the domain, I accessed the domain view. Here, I evaluated the VT CONTEXT section for VirusTotal information, the WHOIS data for ownership details, and the Prevalence graph to assess the domain's historical access patterns. Take note of any suspicious indicators, especially if the domain has been flagged by VirusTotal or exhibits low prevalence, which could indicate a greater risk. Additionally, review the Resolved IPs to gather insights about the IP addresses associated with the domain.
+After clicking on the domain, I accessed the domain view. Here, I evaluated the VT CONTEXT section for _VirusTotal_ information, the _WHOIS_ data for ownership details, and the Prevalence graph to assess the domain's historical access patterns. I find that 10 security vendors flagged the domain _signin.office365x24.com_ as malicious, and 2 security vendors flagged _login.office365x24.com_ as malicious, both domains having the _phishing_ classification. _Let's dig deeper._
 
 ![Screenshot 2024-09-07 141858](https://github.com/user-attachments/assets/367fe13f-1ab4-49e3-b7b7-76f1f36243b6)
 
